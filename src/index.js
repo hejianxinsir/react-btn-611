@@ -11,9 +11,6 @@ const stateChanger = function(state = {n: 0}, action){
   if(action.type === 'add'){
     let newState = {n: state.n + action.payload}
     return newState
-  }else if(action.type === 'minus'){
-    let newState = {n: state.n - action.payload}
-    return newState
   }else{
     return state
   }

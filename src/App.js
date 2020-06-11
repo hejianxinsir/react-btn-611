@@ -11,7 +11,7 @@ class App extends React.Component {
     let recordN = this.props.n
     return (
       <div className="App">
-        <div className="times">你点击了{this.props.n}次</div>
+        <div className="times">你点击了{recordN}次</div>
         <He plus={this.props.add1.bind(this)} content="+1"/>
         <He plus={this.props.add1AfterOneSecond.bind(this)} content="1s后加1"/>
         <He plus={this.props.add1IfOdd.bind(this, recordN)} content="若是单数则+1"/>
