@@ -10,7 +10,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://hejianxinsir.github.io/react-btn-611/build/react-btn-611",
+  "homepage": "https://hejianxinsir.github.io/react-btn-611/build/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
