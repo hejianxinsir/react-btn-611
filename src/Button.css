@@ -1,0 +1,40 @@
+
+
+.wrapper{
+  margin: 100px 50px;
+}
+
+.btn{
+  border: 1px solid gray;
+  padding: 4px 6px;
+  background: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+
+button:focus{
+  outline: none;
+}
+
+span.dot{
+  display: inline-block;
+  width: 6px; height: 6px;
+  background: brown;
+  border-radius: 50%;
+  opacity: 0.2;
+
+  position: absolute;
+  animation: .3s goBig forwards;
+  z-index: 0;
+}
+
+.btn-font{
+  z-index: 1;
+}
+
+@keyframes goBig{
+  0%{transform: scale(0.1)}
+  100%{transform: scale(30)}
+}
+
